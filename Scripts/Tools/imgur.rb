@@ -1,3 +1,4 @@
+# puts usage: ruby imgur.rb <https://www.imgur-album-link.com>
 # imgur image downloader, requires nokogiri and httparty
 
 require 'nokogiri'
