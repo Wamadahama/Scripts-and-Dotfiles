@@ -5,7 +5,7 @@ import sys
 import math
 
 if len(sys.argv) > 3:
-    print("usage: py file-comparisonin.py <CorrectFile.txt> <PredictionFile.txt>")
+    print("usage: py file-comparison.py <CorrectFile.txt> <PredictionFile.txt>")
 
 # Open files and convert the lines into lists
 correct_file = open(str(sys.argv[1]),'r')
